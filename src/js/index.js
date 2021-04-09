@@ -61,7 +61,6 @@ $(function () {
 
     layui.use('table', function () {
         var table = layui.table;
-
         table.render({
             elem: '#test',
             url: 'src/conf/vocabulary.json',
