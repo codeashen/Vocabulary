@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="zh">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="referrer" content="never">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="CodeAshen的个人主页">
+    <meta name="keywords" content="CodeAshen,HomePage">
+    <link rel="icon" href="src/img/favicon.png">
+    <link rel="apple-touch-icon" href="src/img/favicon.png" />
+    <link type="text/css" rel="styleSheet" href="src/css/index.css" />
+    <link rel="stylesheet" href="//unpkg.com/layui@2.6.4/dist/css/layui.css">
+    <title>CodeAshen</title>
+</head>
+
+<body class="antiselect">
+
+    <div>
+        
+    </div>
+    <div class="main">
+        <div id="list"></div>
+        <table class="layui-hide" id="test"></table>
+    </div>
+
+    <!-- footer,鼠标覆盖展示 -->
+    <div class="footer" onmouseover="exWords('#icp', '陕ICP备17001968号')"
+        onmouseout="exWords('#icp', 'SHAAN ICP NO.17001968')">
+        <div class="icp">
+            <p id="icp">SHAAN ICP NO.17001968</p>
+        </div>
+    </div>
+    <!-- 右侧猫 -->
+    <div id="maomao" onMouseOut="duoMaomao()"></div>
+
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/index.js"></script>
+    <script src="//unpkg.com/layui@2.6.4/dist/layui.js"></script>
+
+</body>
+
+</html>
