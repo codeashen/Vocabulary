@@ -10,11 +10,13 @@ html {
 
 body {
     font-size: 1em;
+    text-align: center;
 }
 
 .main {
-    margin-top: 35vh;
-    margin-left: 300px;
+    width: 80%;
+    margin:0 auto;
+    margin-top: 10vh;
     transition: margin .5s;
 }
 
@@ -90,16 +92,16 @@ body {
     position: fixed;
     bottom: 0;
     text-align: center;
-    color: whitesmoke;
+    color: rgb(189, 189, 189);
     transition: color .5s;
 }
 
 .footer:hover {
-    color: gray;
+    color: rgb(94, 94, 94);
 }
 
 .icp {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 100px;
 }
 
@@ -321,7 +323,7 @@ body {
     background-position: 60px 50%;
 }
 
-@media screen and (max-width: 1199px) {
+/* @media screen and (max-width: 1199px) {
     .main {
         margin-left: 200px;
     }
@@ -359,4 +361,11 @@ body {
     .l-item {
         width: calc(100% - 40px);
     }
-}
+} */
+
+/* .layui-table-cell {
+    height: 50px;
+    overflow: visible;
+    text-overflow: inherit;
+    white-space: normal;
+} */
